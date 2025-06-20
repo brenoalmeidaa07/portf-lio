@@ -10,7 +10,8 @@ import ExperienceMain from './components/experienceSection/ExperienceMain';
 import ProjectsMain from './components/projectsSections/ProjectsMain';
 import ContactMeMain from './components/contactMeSection/ContactMeMain';
 import FooterMain from './components/footer/FooterMain';
-import SubHeroSection from "./components/heroSection/SubHeroSection";
+import SubHeroSection from './components/heroSection/SubHeroSection';
+
 
 function App() {
   return (
@@ -19,13 +20,13 @@ function App() {
         <NavBarMain/>
         <HeroMain/>
         <HeroGradient/>
-        <SubHeroSection/>
         <AboutMeMain/>
         <SkillsMain/>
+        <SubHeroSection/>
         <SubSkills/>
         <ExperienceMain/>
         <ProjectsMain/>
-        <ContactMeMain/>
+        <ContactMeMain/>  
         <FooterMain/>
         <HelperSection/>
       </main>
