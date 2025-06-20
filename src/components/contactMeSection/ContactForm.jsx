@@ -1,5 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { motion } from 'framer-motion'
+import { fadeIn } from '../../framerMotion/variants'
 
 const ContactForm = () => {
   const [name, setName] = useState('');
@@ -50,7 +52,7 @@ const ContactForm = () => {
         <input
           name="from_name"
           type="text"
-          placeholder="Seu nome"
+          placeholder="Your name"
           text-yan
           required
           className="h-12 rounded-lg bg-lightBrown px-2 text-white"
@@ -60,7 +62,7 @@ const ContactForm = () => {
         <input
           name="from_email"
           type="email"
-          placeholder="Seu e-mail"
+          placeholder="Your email"
           required
           className="h-12 rounded-lg bg-lightBrown px-2 text-white"
           value={email}
@@ -79,7 +81,8 @@ const ContactForm = () => {
           type="submit"
           className="w-full rounded-lg border border-cyan text-white h-12 font-bold text-xl hover:bg-darkCyan bg-cyan transition-all duration-500"
         >
-          Enviar
+          
+        To send
         </button>
         {success && <p className="text-green-500 mt-2">{success}</p>}
       </form>

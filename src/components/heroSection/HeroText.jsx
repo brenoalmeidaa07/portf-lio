@@ -12,7 +12,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className='lg:text-2xl sm:text-xl uppercase text-cyan'
       >
-        Desenvolvedor Web
+       Developer
       </motion.h2>
 
       <motion.h1
@@ -22,7 +22,8 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className='md:text-[2.8rem] lg:text-6xl sm:text-4xl font-bold font-special text-orange'
       >
-        Transformo ideias em interfaces impactantes
+        
+        I transform ideas into impactful interfaces
       </motion.h1>
 
       <motion.p

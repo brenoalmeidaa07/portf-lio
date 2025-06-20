@@ -10,9 +10,9 @@ const experiences = [
     company: 'Diário Link',
     date: 'Jul 2023 - Mar 2024',
     responsibilities: [
-      'Desenvolvimento de interfaces com React e Next.js.',
-      'Utilização de Material UI para criação de componentes reutilizáveis.',
-      'Colaboração com equipe ágil para manutenção e evolução de sistemas internos.',
+      'Interface development with React and Next.js.',
+      'Using Material UI to create reusable components.',
+      'Collaboration with an agile team for maintenance and evolution of internal systems.',
     ],
   },
 ];
