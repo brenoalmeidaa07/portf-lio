@@ -1,7 +1,6 @@
-
 import AboutMeMain from './components/aboutMeSection/AboutMeMain';
 import AllExperience from './components/experienceSection/AllExperience';
-import HelpeSection from './components/HelperSection';
+import HelperSection from './components/HelperSection';
 import HeroGradient from './components/heroSection/HeroGradient';
 import HeroMain from './components/heroSection/HeroMain';
 import NavBarMain from './components/navbar/NavbarMain';
@@ -13,12 +12,7 @@ import ContactMeMain from './components/contactMeSection/ContactMeMain';
 import FooterMain from './components/footer/FooterMain';
 import SubHeroSection from './components/heroSection/SubHeroSection';
 
-
-
-
-function App(){
-
-
+function App() {
   return (
     <>
       <main className='font-body'> 
@@ -33,12 +27,10 @@ function App(){
         <ProjectsMain/>
         <ContactMeMain/>
         <FooterMain/>
-        <HelpeSection/>
-
+        <HelperSection/>
       </main>
     </>
-  )
+  );
 }
 
-export default App
-
+export default App;
